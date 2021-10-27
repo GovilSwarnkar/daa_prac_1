@@ -1,6 +1,6 @@
 package com.daa.prac;
 
-public class BubbleSort_1 {
+public class BubbleSort_1 {  //stable sort algorithm   
 
 	public static void main(String[] args) {
 		int[] intArray = {-1, 2, -1, 4, 9, 8};
@@ -10,7 +10,7 @@ public class BubbleSort_1 {
 		System.out.println("sorted array : ");
 		
 		for(int a : intArray) {
-			System.out.print(a + ", ");
+			System.out.print(a + " ");
 		}
 	}
 	
